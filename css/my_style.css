@@ -1,0 +1,17 @@
+body{
+    background: lightcoral;
+}
+.scale {
+    transition: 1s;
+    /* Время эффекта */
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
+.vector{
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
